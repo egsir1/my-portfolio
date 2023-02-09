@@ -1,0 +1,52 @@
+.hero {
+  width: 100%;
+  height: 100%;
+}
+
+.mask {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  opacity: 0.5;
+}
+
+.into-img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+.mask::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+}
+.content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.content h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 0.5rem 0 1.5rem;
+}
+.content p {
+  font-size: 1.4rem;
+  font-weight: 300;
+
+  text-align: center;
+}
+.content .btn {
+  text-align: center;
+  margin: 1rem;
+}
+.actions {
+  text-align: center;
+}
