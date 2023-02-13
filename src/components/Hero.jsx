@@ -17,7 +17,11 @@ const Hero = () => {
           <Link to="/project" className="btn">
             Projects
           </Link>
-          <a className="btn-light" href={resume}>
+          <a
+            className="btn-light"
+            download={`new-resume.pdf`}
+            href={`new-resume.pdf`}
+          >
             RESUME
           </a>
         </div>
