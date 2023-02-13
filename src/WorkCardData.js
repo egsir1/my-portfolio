@@ -7,7 +7,7 @@ const ProjectCardData = [
     imgsrc: firdavs,
     title: "Restaurant Web-app",
     text: "This is halal restaurant web-application built in React and it is completely responsive. It includes several functions like commenting and making a reservation(email is sent to restauraunt staff showing all the reservation details)",
-    view: "https://firdavsrestaurant.netlify.app/",
+    view: "https://firdavs-delivero.vercel.app/",
   },
   {
     id: "p-2",
