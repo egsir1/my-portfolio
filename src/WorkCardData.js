@@ -1,7 +1,15 @@
 import firdavs from "./assets/firdavs-intro.png";
 import ecommerce from "./assets/del.png";
 import blog from "./assets/blog.png";
+import market from "./assets/f-market.png";
 const ProjectCardData = [
+  {
+    id: "p-0",
+    imgsrc: market,
+    title: "Online Grocery",
+    text: "This is very powerful full-stack online-shopping app built taking advantage of NextJs, tailwind.css and mongodb database. The project is still ongoing and I am working on the Paypal payment system feature now. Most importantly, all data coming from mongodb are pregennerated behind the scenes with the help of `getSeverSideProps(nextjs function)`. This SPA is completely responsive and optimized. Another interesting feature of the app is the translation(powered with Google-translate)",
+    view: "https://next-e-commerce-app-one.vercel.app/",
+  },
   {
     id: "p-1",
     imgsrc: firdavs,
