@@ -14,14 +14,14 @@ const ProjectCardData = [
     id: "p-1",
     imgsrc: firdavs,
     title: "Restaurant Web-app",
-    text: "This is halal restaurant web-application built in React and it is completely responsive. It includes several functions like commenting and making a reservation(email is sent to restauraunt staff showing all the reservation details)",
+    text: "This is halal restaurant web-application built in React and it is completely responsive. It includes several functions like commenting and making a reservation(email is sent to restauraunt staff showing all the reservation details). Naterial UI classes are used to develop a fully-responsive, user-friendly and professional UI for clients. As test- database(firebase-datastore) expires feedback function is temporarily blocked. I am working on moving all the data to primuim mongodb database. ",
     view: "https://firdavsrestaurant.netlify.app/",
   },
   {
     id: "p-2",
     imgsrc: ecommerce,
     title: "Food Delivery App ",
-    text: "This is restaurant food delivery app is being built using React. This is still ongoing project which is fully-responsive and dynamic. The platform can be translated by users (google-translate powered)",
+    text: "This is restaurant food delivery app is being built using React. This is still ongoing project which is fully-responsive and dynamic. The platform can be translated by users (google-translate powered).Tailwind.css styles are used for the design and the data is stored in real-time database(firebase).As I am waiting the exact guidlines from the employer to complete and deploy the project it is temporarily blocked some features. We are planning tu use Kakao-Map-api to clarify the delivering adress.",
     view: "https://firdavs-delivero.vercel.app/",
   },
   {
